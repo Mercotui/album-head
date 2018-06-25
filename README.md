@@ -13,7 +13,7 @@ and I just want a fancy looking mantelpiece.
 # Legal and being a fan
 
 The brands DEEWEE and Soulwax and the images used to derive this work do not belong to me.
-This repository does not host any copyrighted material, only hosts my work.
+This repository does not host any copyrighted material, it only contains my work.
 
 I want to give Soulwax all credit for they deserve for creating such a strong musical and visual brand.
 Consider buying their music, or seeing them live, they really put on a great show.
