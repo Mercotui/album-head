@@ -1,6 +1,9 @@
 # Album Cover Head Thing
 
 This is an exercise in learning Blender 3D modeling, and exporting it TODO.
+
+![A Render of the head](exports/render.png)
+
 The files can be used to create a real life version of the DEEWEE Head,
 the icon and album cover of Soulwax's amazing album `From DEEWEE`,
 which itself is a chrome version of the AKG D-99 C `Harry`.
@@ -28,9 +31,6 @@ Using the intro shots of this video as a reference:
 [![Is It Always Binary by Soulwax](https://img.youtube.com/vi/aLnzrkVbHgs/0.jpg)](https://www.youtube.com/watch?v=aLnzrkVbHgs)
 
 I outlined the model in blender using [this](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Modeling_a_Wolf_from_Guide_Images) method.
-
-This created the basic 3D model:
-![The blender model](images/model.png)
 
 ## TODO
 
