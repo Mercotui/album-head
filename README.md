@@ -1,19 +1,18 @@
 # Album Cover Head Thing
 
-This is an exercise in learning Blender 3D modeling, and exporting it TODO.
+This is an exercise in learning Blender 3D modeling.
 
 ![A Render of the head](exports/render.png)
 
-The files can be used to create a real life version of the DEEWEE Head,
+This is my attempt at modeling the DEEWEE Head,
 the icon and album cover of Soulwax's amazing album `From DEEWEE`,
 which itself is a chrome version of the AKG D-99 C `Harry`.
-These binaural microphones are incredibly expensive specialist pieces of audio hardware,
-and I just want a fancy looking mantelpiece.
 
 # Legal and being a fan
 
 The brands DEEWEE and Soulwax and the images used to derive this work do not belong to me.
-This repository does not host any copyrighted material, it only contains my work.
+This repository does not host any copyrighted material,
+it only contains my work that I chose release under the MIT license.
 
 I want to give Soulwax all credit for they deserve for creating such a strong musical and visual brand.
 Consider buying their music, or seeing them live, they really put on a great show.
