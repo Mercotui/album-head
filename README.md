@@ -33,13 +33,15 @@ Using the intro shots of this video as a reference:
 
 I outlined the model in blender using [this](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Modeling_a_Wolf_from_Guide_Images) method.
 
-## Creating the 2D outlines
+## Creating the 2D Faces
 
 Using blender, I removed all edges parallel to the X-axis,
 leaving only the large faces that cross-sect the head from front to back.
 Next I took each of this face and moved them to be on `X=0`,
 creating the blend file `head_flattened`, as shown in the following image.
 
-![A Render of the head](exports/head_flattened_blend.png)
+![A Render of the head](documentation/head_flattened_blend.png)
 
 Exporting this as STL allows it to be used in the following steps.
+
+##
