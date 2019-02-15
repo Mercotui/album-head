@@ -35,7 +35,7 @@ I outlined the model in blender using [this](https://en.wikibooks.org/wiki/Blend
 
 ## Creating the 2D Faces
 
-Using blender, I removed all edges parallel to the X-axis,
+Still using blender, I removed all edges parallel to the X-axis,
 leaving only the large faces that cross-sect the head from front to back.
 Next I took each of this face and moved them to be on `X=0`,
 creating the blend file `head_flattened`, as shown in the following image.
@@ -44,4 +44,21 @@ creating the blend file `head_flattened`, as shown in the following image.
 
 Exporting this as STL allows it to be used in the following steps.
 
-##
+## Creating the G-code
+
+This was done using FreeCAD. To start, after importing the STL, lets separate the faces into individual meshes:
+
+-   Select the `Mesh Design` workbench
+-   `Meshes`->`Split Mesh`
+-   Select all polygons to be split into separate mesh
+
+The meshes are in different orientations, with some having normals toward X (right) and others towards negative X. To fix this:
+
+-   Select all negative X facing meshes
+-   `Meshes`->`Flip Normals`
+
+Currently, the meshes all face positive X, but we want it to lay flat on the XY plane, facing positive Z:
+
+-   Select all meshes
+-   `Edit`->`Placement...`
+-   Rotation: `Euler Angles`
