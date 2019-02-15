@@ -42,23 +42,10 @@ creating the blend file `head_flattened`, as shown in the following image.
 
 ![A Render of the head](documentation/head_flattened_blend.png)
 
-Exporting this as STL allows it to be used in the following steps.
+## SVG
 
-## Creating the G-code
+By using the blender addon "Freestyle SVG Exporter", the following SVG file was created:
 
-This was done using FreeCAD. To start, after importing the STL, lets separate the faces into individual meshes:
+![A Render of the head](exports/head_flattened.svg)
 
--   Select the `Mesh Design` workbench
--   `Meshes`->`Split Mesh`
--   Select all polygons to be split into separate mesh
-
-The meshes are in different orientations, with some having normals toward X (right) and others towards negative X. To fix this:
-
--   Select all negative X facing meshes
--   `Meshes`->`Flip Normals`
-
-Currently, the meshes all face positive X, but we want it to lay flat on the XY plane, facing positive Z:
-
--   Select all meshes
--   `Edit`->`Placement...`
--   Rotation: `Euler Angles`
+This is done by setting an orthographic camera to look straight at the right side, and rendering with the addon enabled.
