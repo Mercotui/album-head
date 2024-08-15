@@ -10,17 +10,6 @@ This is my attempt at modeling the DEEWEE Head,
 the icon and album cover of Soulwax's amazing album `From DEEWEE`,
 which itself is a chrome version of the AKG D-99 C `Harry`.
 
-# Legal and being a fan
-
-The brands DEEWEE and Soulwax and the images used to derive this work do not belong to me.
-This repository does not host any copyrighted material,
-it only contains my work that I chose release under the Creative Commons Attribution 4.0 license.
-
-I want to give Soulwax all credit for they deserve for creating such a strong musical and visual brand.
-Consider buying their music, or seeing them live, they really put on a great show.
-They also sell their own small version of the head
-[right here](https://store.soulwax.com/products/deewee-chrome-head-keyring) on their store.
-
 # Deriving the Head
 
 This documents the steps I took to produce the files found in this repository.
@@ -46,6 +35,23 @@ creating the blend file `head_flattened`, as shown in the following image.
 
 By using the blender addon "Freestyle SVG Exporter", the following SVG file was created:
 
-![A Render of the head](exports/head_flattened.svg)
+![A Render of the 2D faces](exports/head_flattened.svg)
 
 This is done by setting an orthographic camera to look straight at the right side, and rendering with the addon enabled.
+
+# Lamp
+
+Using a fair amount of work, a lamp can be created from the 2D faces of the face:
+
+![A Head-shaped Lamp](documentation/lamp.jpg)
+
+# Legal and being a fan
+
+The brands DEEWEE and Soulwax and the images used to derive this work do not belong to me.
+This repository does not host any copyrighted material,
+it only contains my work that I chose release under the Creative Commons Attribution 4.0 license.
+
+I want to give Soulwax all credit for they deserve for creating such a strong musical and visual brand.
+Consider buying their music, or seeing them live, they really put on a great show.
+They also sell their own small version of the head
+[right here](https://store.soulwax.com/products/deewee-chrome-head-keyring) on their store.
